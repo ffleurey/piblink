@@ -20,9 +20,5 @@ b740f04f5d5d: Download complete
 9648d6e9e7fa: Download complete 
 Status: Downloaded newer image for ffleu/piblink:v1
 HypriotOS: pi@black-pearl in ~
-$ docker run ffleu/piblink:v1
-Failed to open /dev/mem, try checking permissions.
-Failed to map the physical GPIO registers into the virtual memory space.
-HypriotOS: pi@black-pearl in ~
 $ docker run --privileged ffleu/piblink:v1
 ```
